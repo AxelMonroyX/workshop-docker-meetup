@@ -16,7 +16,7 @@ services:
       - mongo:db
     command: /bin/bash -c "npm install && npm start"
   mongo:
-    image: mongo:3
+    image: mongo:3.0
     ports:
       - "27017:27017"
     volumes:
